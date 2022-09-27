@@ -1,0 +1,4 @@
+XPATH,Count
+che:CHE_MD_PortrayalCatalogueReference/che:portrayalCatalogueURL/che:PT_FreeURL/che:URLGroup/che:LocalisedURL,45
+che:CHE_MD_PortrayalCatalogueReference/che:portrayalCatalogueURL/gmd:URL,18
+che:CHE_MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation/gmd:CI_Citation,250

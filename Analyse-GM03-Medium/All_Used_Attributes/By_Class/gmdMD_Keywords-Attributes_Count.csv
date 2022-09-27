@@ -1,0 +1,5 @@
+XPATH,Count
+gmd:MD_Keywords/gmd:keyword/gco:CharacterString,6902
+gmd:MD_Keywords/gmd:keyword/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,5605
+gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation,28543
+gmd:MD_Keywords/gmd:type/gmd:MD_KeywordTypeCode,6901

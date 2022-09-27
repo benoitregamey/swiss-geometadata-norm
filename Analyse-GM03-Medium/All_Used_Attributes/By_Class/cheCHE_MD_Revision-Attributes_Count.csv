@@ -1,0 +1,5 @@
+XPATH,Count
+che:CHE_MD_Revision/che:dateOfLastUpdate/gco:Date,4
+che:CHE_MD_Revision/che:revisionNote/gco:CharacterString,7
+che:CHE_MD_Revision/che:revisionNote/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,6
+che:CHE_MD_Revision/che:revisionScope/gmd:MD_ScopeCode,15

@@ -1,0 +1,7 @@
+XPATH,Count
+che:CHE_MD_Legislation/che:country/gmd:Country,1014
+che:CHE_MD_Legislation/che:internalReference/gco:CharacterString,697
+che:CHE_MD_Legislation/che:internalReference/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,689
+che:CHE_MD_Legislation/che:language/gmd:LanguageCode,723
+che:CHE_MD_Legislation/che:legislationType/che:CHE_CI_LegislationCode,856
+che:CHE_MD_Legislation/che:title/gmd:CI_Citation,6429

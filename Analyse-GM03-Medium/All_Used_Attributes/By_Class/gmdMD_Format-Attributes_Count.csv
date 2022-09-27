@@ -1,0 +1,4 @@
+XPATH,Count
+gmd:MD_Format/gmd:name/gco:CharacterString,8196
+gmd:MD_Format/gmd:specification/gco:CharacterString,6
+gmd:MD_Format/gmd:version/gco:CharacterString,8196

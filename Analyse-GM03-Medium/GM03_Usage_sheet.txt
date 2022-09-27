@@ -1,0 +1,312 @@
+# Metadata;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_MD_Metadata/gmd:fileIdentifier;Datei-Identifikator des Metadatensatzes;Eindeutige Identifikation dieser Metadaten Datei.;14738;100;71;gco:CharacterString;;yes;yes;yes;yes;yes
+che:CHE_MD_Metadata/gmd:language;Sprache;Verwendete Sprache für die Dokumentation der Metadaten.;9056;61.4;62;gmd:LanguageCode;;yes;yes;yes;yes;yes
+che:CHE_MD_Metadata/gmd:characterSet;Zeichensatz;Voller Name des für die Metadaten Datei verwendeten normierten Zeichencodes.;14624;99.2;71;gmd:MD_CharacterSetCode;;yes;yes;yes;yes;yes
+che:CHE_MD_Metadata/gmd:parentIdentifier;Abstammung;Metadatenbestandsidentifikation des Stammdatenbestandes bzw. des ;1343;9.1;17;gco:CharacterString;;;;;;
+che:CHE_MD_Metadata/gmd:hierarchyLevel;Hierarchieebene;Ursprungsdatenbestandes. Bereich, auf welchen sich die Metadaten  beziehen.;12999;88.2;70;gmd:MD_ScopeCode;;yes;yes;yes;yes;yes
+che:CHE_MD_Metadata/gmd:hierarchyLevelName;Name der Hierarchieebenen;Name der hierarchischen Ebene, auf die sich Name der hierarchischen Ebene, auf die sich die Metadaten beziehen.;4301;29.2;45;gco:CharacterString;;;;;;
+che:CHE_MD_Metadata/gmd:dateStamp;Erfassungsdatum;Datum der Erzeugung der Metadaten.;13718;93.1;70;gco:DateTime;;yes;yes;yes;yes;yes
+che:CHE_MD_Metadata/gmd:metadataStandardName;Name des Metadatenstandards;Name der verwendeten Metadatennorm  inklusive des Profils.;11400;77.3;70;gco:CharacterString;;;;;;
+che:CHE_MD_Metadata/gmd:metadataStandardVersion;Version des Metadatenstandards;Version (des Profils) der verwendeten  Metadatennorm.;2723;18.5;25;gco:CharacterString;;;;;;
+che:CHE_MD_Metadata/gmd:dataSetURI;URI des Datenbestands;Uniformed Resource Identifier (URI) des Datenbestandes, auf den die Metadaten hinweisen.;1673;11.4;18;gco:CharacterString;;;;;;
+che:CHE_MD_Metadata/gmd:contact;Kontakt;Verantwortliche Stelle für die Information über die Metadaten;14439;98;70;che:CHE_CI_ResponsibleParty;;yes;yes;yes;yes;yes
+che:CHE_MD_Metadata/gmd:contentInfo;Information zum Inhalt;Informationen zum Eigenschaftskatalog und  Beschreibung der Cover- und Bildeigenschaften;2236;15.2;30;che:CHE_MD_CoverageDescription or che:CHE_MD_FeatureCatalogueDescription or che:CHE_MD_ImageDescription;;;;;;
+che:CHE_MD_Metadata/gmd:dataQualityInfo;Information zur Datenqualität;Einschätzung der Qualität der Ressource(n);4262;28.9;50;gmd:DQ_DataQuality;;;;;;
+che:CHE_MD_Metadata/gmd:distributionInfo;Information zur Verteilung;Informationen  über den Verteiler und wie man  die Ressource(n) beschafft;14373;97.5;71;gmd:MD_Distribution;;;yes;yes;yes;
+che:CHE_MD_Metadata/gmd:identificationInfo;Information zur Identifikation des Datenbestandes;Basisinformationen über die Ressource(n), auf  die die Metadaten zutreffen;14738;100;71;che:CHE_MD_DataIdentification or che:CHE_SV_ServiceIdentification;;yes;yes;yes;yes;yes
+che:CHE_MD_Metadata/che:legislationInformation;Gesetzgebungsinformation;Informationen über rechtliche Belange, welche  die Ressource(n) betreffen;1295;8.8;37;che:CHE_MD_Legislation;yes;;;yes;;
+che:CHE_MD_Metadata/gmd:metadataMaintenance;Metadata Maintenance;Metadatennachführung;1868;12.7;32;che:CHE_MD_MaintenanceInformation;;;;;;
+che:CHE_MD_Metadata/gmd:portrayalCatalogueInfo;Information zum Darstellung;Informationen über das Regelwerk für die  Darstellung von Ressource(n);118;0.8;13;che:CHE_MD_PortrayalCatalogueReference;;;;;;
+che:CHE_MD_Metadata/gmd:referenceSystemInfo;Information zum Referenzsystem;Beschreibung der räumlichen und zeitlichen  Bezugssysteme, die im Datenbestand benutzt  werden;11484;77.9;62;gmd:MD_ReferenceSystem;;;;;;
+che:CHE_MD_Metadata/gmd:spatialRepresentationInfo;Information zur digitalen  Darstellung;Digitale Darstellung der räumlichen  Informationen im Datenbestand;3504;23.8;49;gmd:MD_Georectified or gmd:MD_GridSpatialRepresentation or gmd:MD_VectorSpatialRepresentation;;;;;;
+;;;;;;;;;;;;
+# DataIdentification;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_MD_DataIdentification/gmd:status;Bearbeitungsstatus;Bearbeitungsstatus der Ressource(n).;10361;70.3;58;gmd:MD_ProgressCode;;;yes;;;
+che:CHE_MD_DataIdentification/gmd:abstract;Zusammenfassung;Kurze, beschreibende Zusammenfassung des  Inhalts der Ressource oder Ressourcen;13154;89.2;70;gco:CharacterString;;yes;yes;yes;yes;yes
+che:CHE_MD_DataIdentification/gmd:citation;Quellenangabe;Quellenangabe der mit Metadaten beschriebenen Ressource oder Ressourcen.;14312;97.1;71;gmd:CI_Citation;;yes;yes;yes;yes;yes
+che:CHE_MD_DataIdentification/gmd:descriptiveKeywords;Beschreibende Schlüsselwörter;Schlüsselwortkategorie;10454;70.9;68;gmd:MD_Keywords;;;yes;yes;yes;
+che:CHE_MD_DataIdentification/gmd:graphicOverview;Grafische Übersicht;Graphische Übersicht über die Ressource (incl.  Legende);3739;25.4;31;gmd:MD_BrowseGraphic;;;;;;
+che:CHE_MD_DataIdentification/gmd:pointOfContact;Zuständige Stelle/ Kontakt;Identifikation der Person(en) oder der  Organisation(en), welche im Bezug zur Ressource oder den Ressourcen stehen und  Kommunikationsmittel, um mit ihnen in Kontakt  zu treten.;12503;84.8;65;che:CHE_CI_ResponsibleParty;;;;;;
+che:CHE_MD_DataIdentification/gmd:purpose;Absicht;Zusammenfassung von Absichten, mit welchen  die Resource(n) erstellt wurde.;2441;16.6;42;gco:CharacterString;;;yes;;yes;
+che:CHE_MD_DataIdentification/gmd:resourceConstraints;Einschränkungen der Ressource;Informationen über Einschränkungen der  Ressource(n);11586;78.6;62;che:CHE_MD_LegalConstraints or gmd:MD_Constraints or gmd:MD_SecurityConstraints;;;yes;;yes;
+che:CHE_MD_DataIdentification/gmd:resourceFormat;Format der Ressource;Formatbeschreibung der Ressource;1482;10.1;32;gmd:MD_Format;;;;;;
+che:CHE_MD_DataIdentification/gmd:resourceMaintenance;Nachführung der Ressource;Informationen über Nachführungsfrequenz der Ressource und deren Gültigkeit;11006;74.7;60;che:CHE_MD_MaintenanceInformation;;;yes;yes;yes;
+che:CHE_MD_DataIdentification/gmd:resourceSpecificUsage;Spezifische Verwendung der  Ressource;Informationen über spezielle Applikationen, für  die die Ressource(n) benutzt wird oder wurde;544;3.7;13;gmd:MD_Usage;;;;;;
+che:CHE_MD_DataIdentification/che:revision;Aktualisierung;Informationen über die letzte Aktualisierung der ;534;3.6;15;che:CHE_MD_Revision;;;;;;
+che:CHE_MD_DataIdentification/gmd:spatialRepresentationType;Darstellungstyp;Verwendete Methode für die räumliche Darstellung der geographischen Informationen.;9764;66.2;56;gmd:MD_SpatialRepresentationTypeCode;;;;;;
+che:CHE_MD_DataIdentification/gmd:language;Sprache;Sprache, die im Datenbestand verwendet  wurde;8802;59.7;62;gmd:LanguageCode;;yes;yes;yes;yes;yes
+che:CHE_MD_DataIdentification/gmd:characterSet;Zeichensatz;Voller Name des für die Metadaten Datei verwendeten normierten Zeichencodes.;12213;82.9;65;gmd:MD_CharacterSetCode;;;;;;
+che:CHE_MD_DataIdentification/gmd:topicCategory;Thematik;Hauptthema (-themen) des Datenbestands.;14112;95.7;71;gmd:MD_TopicCategoryCode;;yes;yes;yes;yes;yes
+che:CHE_MD_DataIdentification/che:basicGeodataID;Identifiant Géodonnées de base;Identifiant de la géodonnée de base selon l'Annexe I de la OGéo, voire de la collection des géodonnées de base.;3221;21.9;40;gco:CharacterString;yes;;;yes;;
+che:CHE_MD_DataIdentification/che:basicGeodataIDType;Type de géodonnées de base;Indication si l'identifiant ci-dessus appartient au niveau fédéral, cantonal, communal ou autre.;3157;21.4;41;che:basicGeodataIDTypeCode;yes;;;yes;;
+che:CHE_MD_DataIdentification/gmd:environmentDescription;Produktionsumgebung;Beschreibung der Bearbeitungsumgebung, in  welcher der Datenbestand erstellt wird: Dinge,  wie die verwendete Software, Betriebssystem,  Datei-Namen oder Dateigrösse.;1052;7.1;14;gco:CharacterString;;;;;;
+che:CHE_MD_DataIdentification/gmd:extent;Ausdehnung;Zusätzliche Information über die räumliche und  zeitliche Ausdehnung der Daten wie  umfassendes Polygon, Höhen oder zeitliche  Gültigkeit.;13424;91.1;70;gmd:EX_Extent or gml:TimePeriod;;yes;yes;yes;yes;yes
+che:CHE_MD_DataIdentification/gmd:spatialResolution;Geometrische Auflösung;Faktor, welcher eine generelle Angabe über Dichte der räumlichen Daten im Datenbestand  gibt.;4524;30.7;48;gmd:MD_Resolution;;;;;;
+che:CHE_MD_DataIdentification/gmd:supplementalInformation;Zusatzinformationen;Weitere beschreibende Information über den  Datenbestand.;517;3.5;21;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+gmd:MD_BrowseGraphic/gmd:fileName;Filename der Illustration;Name des Files, das die Graphik enthält, die  eine Illustration (bildliche Darstellung) des ;3494;23.7;32;gco:CharacterString;;;;;;
+gmd:MD_BrowseGraphic/gmd:fileType;Formattyp der Illustration;Format, in welchem die Illustration gespeichert  ist. Beispiele: CGM, EPS, GIF, JPEG, PBM, PS,  TIFF, XWD;833;5.7;18;gco:CharacterString;;;;;;
+gmd:MD_BrowseGraphic/gmd:fileDescription;Beschreibung der Illustration;Datenbestands zeigt. Eine Beschreibung der bildlichen Darstellung  des Datenbestands.;2055;13.9;24;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+gmd:MD_Keywords/gmd:type;Schlüsselwortthema;Thema um ähnliche Schlüsselwörter zu  gruppieren.;9703;65.8;63;gmd:MD_KeywordTypeCode;;;;;;
+gmd:MD_Keywords/gmd:keyword;Schlüsselwort;Üblich verwendete Wörter, Begriffe oder  Ausdrücke, um den Inhaltsgegenstand zu  beschreiben.;9126;61.9;67;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+gmd:MD_RepresentativeFraction/gmd:denominator;Nenner;Die Zahl unterhalb der Linie eines Bruches.;3818;25.9;43;gco:Integer;;;;;;
+;;;;;;;;;;;;
+gmd:MD_Resolution/gmd:distance;Auflösung am Boden;Auflösung am Boden;885;6;25;gco:Distance;;;;;;
+gmd:MD_Resolution/gmd:equivalentScale;Vergleichsmassstab;Detaillierungsgrad ausgedrückt durch den  Massstab einer vergleichbaren analogen Karte  oder Grafik.;3729;25.3;43;gmd:MD_RepresentativeFraction;;;;;;
+;;;;;;;;;;;;
+gmd:MD_Usage/gmd:specificUsage;Verwendung;Kurze Beschreibung der momentanen ;57;0.4;9;gco:CharacterString;;;;;;
+gmd:MD_Usage/gmd:userContactInfo;Kontaktinformation für Benutzer;Identifikation der Person(en) und der  Organisation(en), welche die Ressource(n)  benutzen, und die Kommunikationsmittel, um  mit ihnen in Kontakt zu treten.;57;0.4;9;che:CHE_CI_ResponsibleParty;;;;;;
+;;;;;;;;;;;;
+# ServiceIdentification;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_SV_ServiceIdentification/gmd:status;Bearbeitungsstatus;Bearbeitungsstatus der Ressource(n).;18;0.1;1;gmd:MD_ProgressCode;;;;;;
+che:CHE_SV_ServiceIdentification/gmd:abstract;Zusammenfassung;Kurze, beschreibende Zusammenfassung des  Inhalts der Ressource oder Ressourcen;427;2.9;19;gco:CharacterString;;yes;yes;yes;yes;yes
+che:CHE_SV_ServiceIdentification/gmd:citation;Quellenangabe;Quellenangabe der mit Metadaten beschriebenen Ressource oder Ressourcen.;427;2.9;19;gmd:CI_Citation;;yes;yes;yes;yes;yes
+che:CHE_SV_ServiceIdentification/gmd:descriptiveKeywords;Beschreibende Schlüsselwörter;Schlüsselwortkategorie;395;2.7;17;gmd:MD_Keywords;;;;;;
+che:CHE_SV_ServiceIdentification/gmd:graphicOverview;Grafische Übersicht;Graphische Übersicht über die Ressource (incl.  Legende);175;1.2;6;gmd:MD_BrowseGraphic;;;;;;
+che:CHE_SV_ServiceIdentification/gmd:pointOfContact;Zuständige Stelle/ Kontakt;Identifikation der Person(en) oder der  Organisation(en), welche im Bezug zur Ressource oder den Ressourcen stehen und  Kommunikationsmittel, um mit ihnen in Kontakt  zu treten.;279;1.9;17;che:CHE_CI_ResponsibleParty;;;;;;
+che:CHE_SV_ServiceIdentification/gmd:purpose;Absicht;Zusammenfassung von Absichten, mit welchen  die Resource(n) erstellt wurde.;126;0.9;8;gco:CharacterString;;;;;;
+che:CHE_SV_ServiceIdentification/gmd:resourceConstraints;Einschränkungen der Ressource;Informationen über Einschränkungen der  Ressource(n);123;0.8;12;che:CHE_MD_LegalConstraints or gmd:MD_Constraints or gmd:MD_SecurityConstraints;;;;;;
+che:CHE_SV_ServiceIdentification/gmd:resourceFormat;Format der Ressource;Formatbeschreibung der Ressource;12;0.1;6;gmd:MD_Format;;;;;;
+che:CHE_SV_ServiceIdentification/gmd:resourceMaintenance;Nachführung der Ressource;Informationen über Nachführungsfrequenz der Ressource und deren Gültigkeit;11;0.1;3;che:CHE_MD_MaintenanceInformation;;;;;;
+che:CHE_SV_ServiceIdentification/gmd:resourceSpecificUsage;Spezifische Verwendung der  Ressource;Informationen über spezielle Applikationen, für  die die Ressource(n) benutzt wird oder wurde;3;0;2;gmd:MD_Usage;;;;;;
+che:CHE_SV_ServiceIdentification/che:revision;Aktualisierung;Informationen über die letzte Aktualisierung der ;0;0;0;che:CHE_MD_Revision;;;;;;
+che:CHE_SV_ServiceIdentification/che:inspireServiceType;Type de service INSPIRE;"Type de service tel que décrit dans le ""Règlement (CE) No 1205/2008 de la commission portant modalités d'application de la directive 2007/2/CE du Parlement européen et du Conseil ence qui concerne les métadonnées""";6;0;3;che:CHE_SV_inspireServiceTypeCode;yes;;;;;
+che:CHE_SV_ServiceIdentification/srv:serviceTypeVersion;Version du type de service;Version du type de service;305;2.1;19;gco:CharacterString;;;;;;
+che:CHE_SV_ServiceIdentification/srv:couplingType;Type de couplage;Type de couplage;418;2.8;18;srv:SV_CouplingType;;yes;yes;yes;yes;yes
+che:CHE_SV_ServiceIdentification/srv:operatesOn;Identifiant de la donnée associée;Information sur la ou les données associées au service;79;0.5;10;;;;;;;
+che:CHE_SV_ServiceIdentification/srv:serviceType;Type de service;Nom du type de service;427;2.9;19;gco:LocalName;;;;;;
+che:CHE_SV_ServiceIdentification/srv:accessProperties;Propriétés d'accès;Information sur la disponibilité du service (prix, instructions de commande...);15;0.1;5;gmd:MD_StandardOrderProcess;;;;;;
+che:CHE_SV_ServiceIdentification/srv:extent;Ausdehnung;Zusätzliche Information über die räumliche und  zeitliche Ausdehnung der Daten wie  umfassendes Polygon, Höhen oder zeitliche  Gültigkeit.;390;2.6;14;gmd:EX_Extent;;;;;;
+che:CHE_SV_ServiceIdentification/srv:coupledResource;Ressource couplée;Information sur la ressource couplée;209;1.4;11;srv:SV_CoupledResource;;;;;;
+che:CHE_SV_ServiceIdentification/srv:containsOperations;Opérations;Information sur les opérations;426;2.9;19;srv:SV_OperationMetadata;;yes;yes;yes;yes;yes
+;;;;;;;;;;;;
+srv:SV_OperationMetadata/srv:operationName;Nom de l'opération;Nom de l’opération;305;2.1;18;gco:CharacterString;;yes;yes;yes;yes;yes
+srv:SV_OperationMetadata/srv:operationDescription;Description de l'opération;Description de l’opération sous forme de texte libre;4;0;2;gco:CharacterString;;;;;;
+srv:SV_OperationMetadata/srv:DCP;Communication;Plateforme de communication (DCP) sur laquelle l’opération a été implémentée;305;2.1;18;srv:DCPList;;yes;yes;yes;yes;yes
+srv:SV_OperationMetadata/srv:connectPoint;Point de connection;Point de connection pour accéder à l’interface;305;2.1;18;gmd:CI_OnlineResource;;yes;yes;yes;yes;yes
+;;;;;;;;;;;;
+srv:SV_CoupledResource/srv:identifier;Identifiant;Identifiant de la resource sur laquelle l’opération porte;207;1.4;11;gco:CharacterString;;;;;;
+srv:SV_CoupledResource/srv:operationName;Nom de l'opération;Nom de l’opération;207;1.4;11;gco:CharacterString;;;;;;
+srv:SV_CoupledResource;Nom de la couche;Nom de la ressource couplée (ex: nom de la couche dans un WMS);146;1;8;gco:ScopedName;;;;;;
+;;;;;;;;;;;;
+gml:CodeType/code;Name;Nom et codespace pour les types de service et noms des couches;0;0;0;;;;;;;
+gml:CodeType/codeSpace;codeSpace;Nom ou identification de la personne ou de l'organisation responsable pour la domaine de valeurs;0;0;0;;;;;;;
+;;;;;;;;;;;;
+# Constraints Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:MD_Constraints/gmd:useLimitation;Einschränkung;Begrenzungen bezogen auf die Eignung der Verwendung der Ressource oder der  Metadaten. Bsp: Darf nicht für Navigation  verwendet werden.;2842;19.3;36;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+che:CHE_MD_LegalConstraints/gmd:accessConstraints;Zugriffeinschränkung;Zugriffseinschränkungen für die Sicherung von  Privat- oder Geisteseigentum und allen anderen  Einschränkungen gegen den Erhalt der  Ressource oder der Metadaten;2596;17.6;33;gmd:MD_RestrictionCode;;;;;;
+che:CHE_MD_LegalConstraints/gmd:useConstraints;Verwendungseinschränkungen;Einschränkungen zur Sicherung der Privatsphäre oder des Geistigen Eigentums und  weitere spezielle Einschränkungen oder Warnungen betreffend der Verwendung der Ressource oder der Metadaten.;5107;34.6;45;gmd:MD_RestrictionCode;;;yes;;;
+che:CHE_MD_LegalConstraints/gmd:otherConstraints;Andere Einschränkungen;Andere Einschränkungen und rechtliche  Voraussetzungen für den Zugriff und die  Verwendung der Ressource oder der  Metadaten.;6490;44;54;gco:CharacterString or gmd:PT_FreeText or gmx:Anchor;;;yes;;yes;
+;;;;;;;;;;;;
+gmd:MD_SecurityConstraints/gmd:classification;Bearbeitungseinschränkung;Name der auferlegten  Behandlungseinschränkung.;620;4.2;25;gmd:MD_ClassificationCode;;;;;;
+;;;;;;;;;;;;
+# Data Quality Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:DQ_DataQuality/gmd:scope;Qualitätsumfang;Die spezifischen Daten (räumliche und  thematischer Rahmen), auf die sich die  Datenqualitätsinformation bezieht.;4252;28.8;49;gmd:DQ_Scope;;;;;;
+gmd:DQ_DataQuality/gmd:report;Beschreibung;Quantitative Qualitätsinformation für die Daten;656;4.5;16;gmd:DQ_AbsoluteExternalPositionalAccuracy or gmd:DQ_DomainConsistency or gmd:DQ_GriddedDataPositionalAccuracy or gmd:DQ_TemporalValidity;;;;;;
+gmd:DQ_DataQuality/gmd:lineage;Herkunft;Nicht-Quantitative Qualitätsinformationen über  die Herkunft der Daten;4009;27.2;48;gmd:LI_Lineage;;;;;;
+;;;;;;;;;;;;
+gmd:LI_Lineage/gmd:statement;Aussage zur Herkunft;Allgemeine Erklärung des Datenerstellers über  die Abstammung des Datenbestands.;3074;20.9;40;gco:CharacterString;;;;;;
+gmd:LI_Lineage/gmd:processStep;Prozessschritt;Informationen über Prozesse im Bestehen  eines Datenbestandes;76;0.5;13;gmd:LI_ProcessStep;;;;;;
+gmd:LI_Lineage/gmd:source;Quelle;Informationen über die Quelle der Daten;749;5.1;16;gmd:LI_Source;;;;;;
+;;;;;;;;;;;;
+gmd:LI_ProcessStep/gmd:description;Beschreibung des Prozesses;Beschreibung des Hergangs, die dazugehörige Parameter oder Toleranzen beinhalten kann.;79;0.5;12;gco:CharacterString;;;;;;
+gmd:LI_ProcessStep/gmd:dateTime;Datum/ Zeit des Prozesses;Zeitpunkt oder  Zeitspanne, an welchem oder  innerhalb welcher sich der Prozesschritt  ereignet hat.;36;0.2;8;;;;;;;
+;;;;;;;;;;;;
+gmd:LI_Source/gmd:description;Quelldatenbeschreibung;Detaillierte Beschreibung des Standes der  Quelldaten.;370;2.5;12;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+gmd:DQ_Scope/gmd:level;Level;Hierarchische Ebene der Daten gemäss dem  definierten Geltungsbereich.;3985;27;48;gmd:MD_ScopeCode;;;;;;
+gmd:DQ_Scope/gmd:levelDescription;Levelbschreibung;Detaillierte Beschreibung der Ebene der Daten  gemäss dem definierten Geltungsbereich.;76;0.5;10;gmd:MD_ScopeDescription;;;;;;
+;;;;;;;;;;;;
+gmd:MD_ScopeDescription/gmd:other;Andere;Beschreibung der Informationen, die sich in  keiner der anderen Auswahlmöglichkeiten  unterbringen lässt.;39;0.3;4;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+gmd:DQ_DomainConsistency/gmd:result;Konsistenz des Wertebereiches;Klasse für die Beschreibung der Einhaltung der  Werte in Wertebereichen.;646;4.4;12;gmd:DQ_QuantitativeResult or gmd:DQ_ConformanceResult;;;;;;
+;;;;;;;;;;;;
+gmd:DQ_ConformanceResult/gmd:specification;Spezifikation;Beschreibung der Produktspezifikation oder der  Benutzeranforderung, mit der die Daten  verglichen werden.;643;4.4;12;gmd:CI_Citation or gco:CharacterString;;;;;;
+gmd:DQ_ConformanceResult/gmd:explanation;Erklärung;Erklärung der Bedeutung der Übereinstimmung  für dieses Resultat.;643;4.4;12;gco:CharacterString;;;;;;
+gmd:DQ_ConformanceResult/gmd:pass;Bestanden;Angabe über Erfüllung des  Übereinstimmungstests, 0 = nicht erfüllt, 1=  erfüllt;643;4.4;12;gco:Boolean;;;;;;
+;;;;;;;;;;;;
+# Maintenance Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_MD_MaintenanceInformation/gmd:maintenanceAndUpdateFrequency;Unterhalts- und  Nachführungsfrequenz;Häufigkeit, mit der, seit ihrer Erstellung,  Änderungen und Ergänzungen an der  Ressource  gemacht werden;10945;74.3;63;gmd:MD_MaintenanceFrequencyCode;;;yes;yes;yes;
+che:CHE_MD_MaintenanceInformation/gmd:dateOfNextUpdate;Datum der nächsten Nachführung;Datum der nächsten Nachführung der Ressource;14;0.1;2;gco:DateTime;;;;;;
+che:CHE_MD_MaintenanceInformation/gmd:userDefinedMaintenanceFrequency;Benutzerdefinierte  Nachführungsfrequenz;Andere Nachführungsrhythmen, als jene die  unter UnterhaltUndNachfuehrungFrequenz  definiert sind;573;3.9;13;gts:TM_PeriodDuration;;;;;;
+che:CHE_MD_MaintenanceInformation/gmd:updateScope;Nachführungsumfang;Umfang der Daten, die nachgeführt werden.;41;0.3;5;gmd:MD_ScopeCode;;;;;;
+che:CHE_MD_MaintenanceInformation/che:dateOfMonitoringState;Etat du monitoring;Date du monitoring des géodonnées de base;5;0;4;gco:Date;yes;;;;;
+che:CHE_MD_MaintenanceInformation/gmd:maintenanceNote;Bemerkungen zur Nachführung;Bemerkungen oder Informationen über die Berücksichtigung spezieller Bedürfnisse für die  Nachführung der Ressource;687;4.7;19;gco:CharacterString;;;;;;
+che:CHE_MD_MaintenanceInformation/che:archiveConcept;Concept d'archivage;Information sur l'archivage des données et métadonnées;26;0.2;9;che:CHE_MD_ArchiveConcept;yes;;;;;
+che:CHE_MD_MaintenanceInformation/che:historyConcept;Concept d'historique;Information sur l'établissement de l'historique des données et métadonnées;11;0.1;7;che:CHE_MD_HistoryConcept;yes;;;;;
+;;;;;;;;;;;;
+che:CHE_MD_ArchiveConcept/che:archiveConceptCitation;Titre et date du concept d'archivage;Titre et date du concept d'archivage;3;0;3;;yes;;;;;
+che:CHE_MD_ArchiveConcept/che:archiveConceptURL;URL du concept d'archivage;Si le concept d'archivage est accessible en ligne, l'URL peut être renseigné ici;6;0;4;che:LocalisedURL;yes;;;;;
+;;;;;;;;;;;;
+che:CHE_MD_HistoryConcept/che:historyConceptCitation;Titre et date du concept d'historique;Titre et date du concept d'historique;5;0;4;;yes;;;;;
+che:CHE_MD_HistoryConcept/che:historyConceptURL;URL du concept d'historique;Si le concept d'historique est accessible en ligne, l'URL peut être renseigné ici;6;0;4;che:LocalisedURL;yes;;;;;
+;;;;;;;;;;;;
+# Spatial Representation Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:MD_GridSpatialRepresentation/gmd:numberOfDimensions;Anzahl Dimensionen;Nummer der unabhängigen Raum-Zeit-Achsen (Anzahl Dimensionen).;62;0.4;8;gco:Integer;;;;;;
+gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties;Eigenschaften der Dimensionsaxen;Informationen über die Eigenschaften der Raum-Zeit-Achsen.;5;0;1;gmd:MD_Dimension;;;;;;
+gmd:MD_GridSpatialRepresentation/gmd:cellGeometry;Rastertyp;Definition des Rastertyps (Punkt oder Zelle).;62;0.4;8;gmd:MD_CellGeometryCode;;;;;;
+gmd:MD_GridSpatialRepresentation/gmd:transformationParameterAvailability;Verfügbarkeit der Transformationsparameter;Angabe ob Transformationsparameter für eine  Georeferenzierung des Rasters existieren oder  nicht.;62;0.4;8;gco:Boolean;;;;;;
+;;;;;;;;;;;;
+gmd:MD_VectorSpatialRepresentation/gmd:topologyLevel;Topologielevel;Code, der die im Datenbestand vorkommenden  topologischen Dimensionen und Merkmale  angibt.;202;1.4;15;gmd:MD_TopologyLevelCode;;;;;;
+gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects;Geometrieobjekte;Informationen über die im Datenbestand  verwendeten geometrischen Objekte.;2944;20;45;gmd:MD_GeometricObjects;;;;;;
+;;;;;;;;;;;;
+gmd:MD_Dimension/gmd:dimensionName;Achsenname;Name der Achse.;6;0;2;gmd:MD_DimensionNameTypeCode;;;;;;
+gmd:MD_Dimension/gmd:dimensionSize;Anzahl Pixel;Anzahl Zellen entlang dieser Achse.;6;0;2;gco:Integer;;;;;;
+gmd:MD_Dimension/gmd:resolution;Auflösung;Detaillierungsgrad des Rasters, was die  Beschreibung eines Ausmasses, einer Grösse  oder einer Menge sein kann.;6;0;2;gco:Distance or gco:Measure;;;;;;
+;;;;;;;;;;;;
+gmd:MD_GeometricObjects/gmd:geometricObjectType;Geometrietyp;Name der Punkt- und Vektorobjekte für die  Festlegung der räumlichen null-, ein-, zwei- oder drei-dimensionalen Lage im Datenbestand;2942;20;45;gmd:MD_GeometricObjectTypeCode;;;;;;
+gmd:MD_GeometricObjects/gmd:geometricObjectCount;Anzahl Geometrieobjekte;Anzahl der Punkte oder Vektorobjekte, die in der  Datei vorkommen.;647;4.4;18;gco:Integer;;;;;;
+;;;;;;;;;;;;
+# Reference System Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier;Identifikation des  Referenzsystems;Name des räumlichen Bezugssystems, unter  dem eine Definition der Projektion, des  Ellipsoids und dem geodätischen Datum  verstanden wird.;11482;77.9;62;gmd:RS_Identifier;;;;;;
+;;;;;;;;;;;;
+# Content Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_MD_FeatureCatalogueDescription/gmd:complianceCode;Einhaltung von ISO19110;Aussage, ob der genannte Objektkatalog der Norm ISO 19110 entspricht.;249;1.7;5;gco:Boolean;;;;;;
+che:CHE_MD_FeatureCatalogueDescription/gmd:language;Sprache;Sprache, die im Objektkatalog verwendet wurde.;244;1.7;7;gmd:LanguageCode;;;;;;
+che:CHE_MD_FeatureCatalogueDescription/gmd:includedWithDataset;Im Datenbestand enthalten;Aussage, ob der Datenbestand den Objektkatalog beinhaltet.;2171;14.7;29;gco:Boolean;;;;;;
+che:CHE_MD_FeatureCatalogueDescription/gmd:featureTypes;Objekttypen;Teilmenge der Objekttypen, aus dem unten  genannten Objektkatalog, welche im Datenbestand vorkommt.;4;0;2;gco:ScopedName;;;;;;
+che:CHE_MD_FeatureCatalogueDescription/gmd:featureCatalogueCitation;Katalog der Objektmerkmale;Komplette bibliographische Referenz zu einem  oder mehreren externen Objektkatalogen.;2171;14.7;29;gmd:CI_Citation;;;;;;
+che:CHE_MD_FeatureCatalogueDescription/che:dataModel;Datenmodell;Verweis auf das Datenmodell des Datenbestandes;465;3.2;18;che:PT_FreeURL or gmd:URL;yes;;;;;
+che:CHE_MD_FeatureCatalogueDescription/che:class;Klasse;Objektklassen;1579;10.7;21;che:CHE_MD_Class;;;;;;
+che:CHE_MD_FeatureCatalogueDescription/che:modelType;Type de modèle;Type de modèle;2171;14.7;29;che:CHE_MD_modelTypeCode;yes;;;;;
+;;;;;;;;;;;;
+che:CHE_MD_CoverageDescription/gmd:attributeDescription;Attributbeschreibung;Beschreibung des Attributs, welches durch den  Messwert beschrieben ist.;35;0.2;5;gco:RecordType;;;;;;
+che:CHE_MD_CoverageDescription/gmd:contentType;Zellinhaltstyp;Informationstyp, welcher durch den Wert der  Zelle repräsentiert wird.;35;0.2;5;gmd:MD_CoverageContentTypeCode;;;;;;
+;;;;;;;;;;;;
+che:attribute/che:name;Name;Attributname;989;6.7;18;gco:CharacterString;;;;;;
+che:attribute/che:description;Beschreibung;Attributbeschreibung;811;5.5;15;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+che:CHE_MD_Class/che:name;Name;;1478;10;21;gco:CharacterString;;;;;;
+che:CHE_MD_Class/che:description;Beschreibung;;626;4.2;14;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+# Portrayal catalogue information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_MD_PortrayalCatalogueReference/gmd:portrayalCatalogueCitation;Darstellungskatalog der Quelle;Bibliographische Referenz zum zitierten  Darstellungskatalog;118;0.8;13;gmd:CI_Citation;;;;;;
+che:CHE_MD_PortrayalCatalogueReference/che:portrayalCatalogueURL;URL du catalogue de présentation;URL du catalogue de présentation;31;0.2;6;gmd:URL;yes;;;;;
+;;;;;;;;;;;;
+# Distribution Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:MD_Distribution/gmd:distributionFormat;Verteilformat;Beschreibung des Vertriebsformates;13183;89.4;70;gmd:MD_Format;;;;;;
+gmd:MD_Distribution/gmd:distributor;Vertreiber;Informationen über den Verteiler;7731;52.4;44;gmd:MD_Distributor;;;;yes;;
+gmd:MD_Distribution/gmd:transferOptions;Transferoptionen;Informationen wie die Daten beim Verteiler beschafft werden können;12616;85.6;67;gmd:MD_DigitalTransferOptions;;;yes;;yes;
+;;;;;;;;;;;;
+gmd:MD_DigitalTransferOptions/gmd:unitsOfDistribution;Vertriebseinheit;Kacheln, Ebenen, geografische Bereiche etc. in  denen die Daten erhältlich sind.;565;3.8;13;gco:CharacterString;;;;;;
+gmd:MD_DigitalTransferOptions/gmd:onLine;On Line;Informationen über die online-Quelle, von der die Ressource erhalten werden kann.;12285;83.3;67;gmd:CI_OnlineResource;;;;;;
+gmd:MD_DigitalTransferOptions/gmd:offLine;Off Line;Informationen über das offline-Medium, auf  welchem die Ressource erhalten werden kann.;134;0.9;15;gmd:MD_Medium;;;;;;
+;;;;;;;;;;;;
+gmd:MD_Distributor/gmd:distributorContact;Vertriebstelle;Stelle, von wo die Ressource bezogen werden  kann.;7045;47.8;35;che:CHE_CI_ResponsibleParty;;;;;;
+gmd:MD_Distributor/gmd:distributionOrderProcess;Verteil-/Bestellprozess;Informationen wie die Daten bestellt werden  können, über Kosten und weitere  Bestellanweisungen;661;4.5;16;gmd:MD_StandardOrderProcess;;;;;;
+;;;;;;;;;;;;
+gmd:MD_Format/gmd:name;Formatname;Name des Datentransferformates.;13404;90.9;70;gco:CharacterString;;;;;;
+gmd:MD_Format/gmd:version;Formatversion;Version des Datenformates.;13012;88.3;69;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+gmd:MD_Medium/gmd:name;Name;Art des Mediums auf welchem die Daten  erhalten werden können;129;0.9;13;gmd:MD_MediumNameCode;;;;;;
+;;;;;;;;;;;;
+gmd:MD_StandardOrderProcess/gmd:fees;Gebühren;Gebühren und Bedingungen für den Bezug der  Ressource. Angaben mit Geldeinheiten, die in  der Norm ISO 4217 definiert sind.;660;4.5;15;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+gmd:CI_OnlineResource/gmd:linkage;Internetadresse;URL oder ähnliche Angabe einer Internetadresse für on-line Zugriff;10024;68;66;gmd:URL;;;;;;
+gmd:CI_OnlineResource/gmd:protocol;Verbindungsprotokoll;Verwendetes Verbindungsprotokoll.;13702;93;70;gco:CharacterString;;;;;;
+gmd:CI_OnlineResource/gmd:name;Name;Name der on-line Quelle.;6725;45.6;57;gco:CharacterString;;;;;;
+gmd:CI_OnlineResource/gmd:description;Beschreibung;Detaillierte Beschreibung, was die on-line Quelle bietet.;7864;53.4;66;gco:CharacterString;;;;;;
+gmd:CI_OnlineResource/gmd:function;Eigenschaft;Code der Funktion, welche die on-line Quelle  verrichtet.;4320;29.3;60;gmd:CI_OnLineFunctionCode;;;;;;
+;;;;;;;;;;;;
+# Revision Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_MD_Revision/che:revisionScope;Aktualisierungsumfang;Umfang der Daten, die aktualisiert wurden.;18;0.1;3;gmd:MD_ScopeCode;;;;;;
+che:CHE_MD_Revision/che:dateOfLastUpdate;Datum der letzten Aktualisierung;Datum der letzten Aktualisierung;5;0;3;gco:Date;;;;;;
+che:CHE_MD_Revision/che:revisionNote;Bemerkung zur Aktualisierung;Bemerkung zur letzten Aktualisierung;8;0.1;3;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+# Legislation Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_MD_Legislation/che:title;Gesetzestitel;Referenz auf die Gesetzesquelle.;1451;9.8;38;gmd:CI_Citation;yes;;;yes;;
+che:CHE_MD_Legislation/che:country;Land;Land in welchem das Gesetz erlassen wurde.;1451;9.8;38;gmd:Country;yes;;;yes;;
+che:CHE_MD_Legislation/che:language;Sprache;Sprache in welcher das Gesetz verfasst ist.;996;6.8;35;gmd:LanguageCode;yes;;;yes;;
+che:CHE_MD_Legislation/che:legislationType;Gesetzestyp;Typ des Gesetzes.;1274;8.6;37;che:CHE_CI_LegislationCode;yes;;;yes;;
+che:CHE_MD_Legislation/che:internalReference;Interne Referenz;Interne Referenz (Artikel, Paragraph usw.).;1086;7.4;32;gco:CharacterString;yes;;;yes;;
+;;;;;;;;;;;;
+# Extent Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:EX_Extent/gmd:description;Beschreibung;Beschreibung der räumlichen und zeitlichen Ausdehnung des jeweiligen Objektes.;11782;79.9;66;gco:CharacterString;;;;;;
+gmd:EX_Extent/gmd:geographicElement;Geografisches Element;Informationen über die geographische  Ausdehnung;13748;93.3;70;gmd:EX_BoundingPolygon or gmd:EX_GeographicBoundingBox or gmd:EX_GeographicDescription;;;;;;
+gmd:EX_Extent/gmd:temporalElement;Zeitliches Element;Informationen über die zeitliche Ausdehnung;503;3.4;8;gmd:EX_TemporalExtent;;;;;;
+;;;;;;;;;;;;
+gmd:EX_BoundingPolygon/gmd:extentTypeCode;Ausdehnung Umriss oder Insel;Aussage, ob es sich bei der vorliegenden  Beschreibung der Ausdehnung um den Umriss  oder um eine datenfreie Fläche des  Datenbestands handelt.;3637;24.7;10;gco:Boolean;;;;;;
+gmd:EX_BoundingPolygon/gmd:polygon;Polygon;Eine Reihe von Punken, welche die  umschliessende Grenze definieren. ;10908;74;64;gml:MultiSurface;;;;;;
+;;;;;;;;;;;;
+gmd:EX_GeographicBoundingBox/gmd:westBoundLongitude;Ausdehnung Westumriss;Westlich begrenzende Seite der  Datenbestandsausdehnung, ausgedrückt in  geografischer Breite mit Dezimaleinheiten,  wobei Osten positiv ist;13383;90.8;69;gco:Decimal;;;;;;
+gmd:EX_GeographicBoundingBox/gmd:eastBoundLongitude;Ausdehnung Ostumriss;Östlich begrenzende Seite der  Datenbestandsausdehnung, ausgedrückt in  geografischer Breite mit Dezimaleinheiten,  wobei Osten positiv ist.;13383;90.8;69;gco:Decimal;;;;;;
+gmd:EX_GeographicBoundingBox/gmd:southBoundLatitude;Ausdehnung Südumriss;Südlich begrenzende Seite der  Datenbestandsausdehnung, ausgedrückt in  geografischer Länge mit Dezimaleinheiten,  wobei Norden positiv ist.;13383;90.8;69;gco:Decimal;;;;;;
+gmd:EX_GeographicBoundingBox/gmd:northBoundLatitude;Ausdehnung Nordumriss;Nördlich begrenzende Seite der  Datenbestandsausdehnung, ausgedrückt in  geografischer Länge mit Dezimaleinheiten,  wobei Norden positiv ist.;13383;90.8;69;gco:Decimal;;;;;;
+;;;;;;;;;;;;
+gmd:EX_TemporalExtent/gmd:extent;Ausdehnung;Datum und Zeit für den Inhalt des  Datenbestands.;497;3.4;7;gmd:EX_Extent or gml:TimePeriod;;;;;;
+gml:TimePeriod/gml:begin;Début;Début;6;0;3;gml:TimeInstant;;;;;;
+gml:TimePeriod/gml:end;Fin;Fin;32;0.2;2;gml:TimeInstant;;;;;;
+;;;;;;;;;;;;
+# Citation Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:CI_Citation/gmd:title;Titel;Name, unter welchem die jeweilige Quelle, auf  welche Bezug genommen wird, bekannt ist.;13582;92.1;70;gco:CharacterString;;yes;yes;yes;yes;yes
+gmd:CI_Citation/gmd:alternateTitle;Kurztitel;Kurzname oder andere Schreibweise des  Namens, unter welchem die entsprechende  Information bekannt ist.;6440;43.7;47;gco:CharacterString;;;yes;;;
+gmd:CI_Citation/gmd:date;Datum;Referenzdatum für die jeweilige Quelle;11848;80.4;70;gmd:CI_Date or gco:Date or gco:DateTime;;yes;yes;yes;yes;yes
+gmd:CI_Citation/gmd:edition;Version;Version der genannten Quelle;71;0.5;13;gco:CharacterString;;;;;;
+gmd:CI_Citation/gmd:editionDate;Versionsdatum;Datum der Version.;31;0.2;10;gco:Date;;;;;;
+gmd:CI_Citation/gmd:identifier;Identifikator;Eindeutige Identifikation eines Objektes;9265;62.9;64;gmd:MD_Identifier;;;yes;;;
+gmd:CI_Citation/gmd:citedResponsibleParty;Verantwortliche Stelle;Namen- und Ortsangaben der Person oder  Organisation, welche für die zitierte Quelle  verantwortlich ist.;3851;26.1;22;che:CHE_CI_ResponsibleParty;;;;;;
+gmd:CI_Citation/gmd:presentationForm;Präsentationsform;Die Art und Weise, in der die genannte Quelle  vorliegt.;1188;8.1;16;gmd:CI_PresentationFormCode;;;;;;
+gmd:CI_Citation/gmd:otherCitationDetails;Weitere ;Andere  Information, welche für eine vollständige Quellenbeschreibung benötigt wird und in  keinem anderen Attribut erfasst wurde.;563;3.8;30;gco:CharacterString;;;;;;
+gmd:CI_Citation/gmd:collectiveTitle;Kollektivtitel;Gebräuchlicher Titel mit der Anmerkung einer  Zugehörigkeit. Merke: Der Titel identifiziert ;3969;26.9;33;gco:CharacterString;;;;yes;;
+gmd:CI_Citation/gmd:ISBN;ISBN;Internationale StandardBuchNummer.;8;0.1;4;gco:CharacterString;;;;;;
+gmd:CI_Citation/gmd:ISSN;ISSN;Internationale StandardSerienNummer;4;0;3;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+gmd:CI_Date/gmd:date;Datum;Referenzdatum der zitierten Quelle;11820;80.2;70;gco:Date;;;;;;
+gmd:CI_Date/gmd:dateType;Datumstyp;Ereignis auf welches sich das Datum bezieht;11832;80.3;70;gmd:CI_DateTypeCode;;;;;;
+;;;;;;;;;;;;
+# Responsible Party Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+che:CHE_CI_ResponsibleParty/gmd:organisationName;Name der Organisation;Name der verantwortlichen Organisation.;13456;91.3;70;gco:CharacterString;;;;;;
+che:CHE_CI_ResponsibleParty/gmd:positionName;Name der Position;Rolle oder Position der verantwortlichen Person.;4515;30.6;46;gco:CharacterString;;;;;;
+che:CHE_CI_ResponsibleParty/gmd:contactInfo;Kontaktinformationen;Öffnungszeiten der verantwortlichen Stelle.;14609;99.1;71;gmd:CI_Contact;;;;;;
+che:CHE_CI_ResponsibleParty/che:organisationAcronym;Abkürzung der Organisation;Kurzbezeichnung oder Abkürzung der Organisation.;7569;51.4;61;gco:CharacterString;yes;;;;;
+che:CHE_CI_ResponsibleParty/che:individualFirstName;Vorname;Vorname;10237;69.5;67;gco:CharacterString;yes;;;;;
+che:CHE_CI_ResponsibleParty/che:individualLastName;Nachname;Nachname;10879;73.8;66;gco:CharacterString;yes;;;;;
+che:CHE_CI_ResponsibleParty/gmd:role;Rolle;Verrichtete Funktion der verantwortlichen Stelle.;14610;99.1;71;gmd:CI_RoleCode;;;;;;
+;;;;;;;;;;;;
+gmd:CI_Contact/gmd:hoursOfService;Kontakt Öffnungszeiten;Zeitraum inklusive der Zeitzone, wann die  verantwortliche Person oder Organisation  erreicht werden kann.;3529;23.9;26;gco:CharacterString;;;;;;
+gmd:CI_Contact/gmd:contactInstructions;Kontaktanweisungen;Zusätzliche Kontaktanweisungen wie oder wann  die verantwortliche Person oder Organisation zu  erreicht ist.;15;0.1;4;gco:CharacterString;;;;;;
+gmd:CI_Contact/gmd:address;Adresse;Adresse der verantwortlichen Stelle.;14609;99.1;71;che:CHE_CI_Address;;;;;;
+gmd:CI_Contact/gmd:phone;Telefon;Datentyp für die Telefonnummern von der  verantwortlichen Person oder Stelle.;13766;93.4;68;che:CHE_CI_Telephone;;;;;;
+gmd:CI_Contact/gmd:onlineResource;;;13272;90;64;gmd:CI_OnlineResource;;;;;;
+;;;;;;;;;;;;
+che:CHE_CI_Address/gmd:city;Ort;Stadt, Ort des Standortes.;13349;90.6;69;gco:CharacterString;;;;;;
+che:CHE_CI_Address/gmd:administrativeArea;Administative Einteilung;Staat oder Provinz des Standortes.;1286;8.7;22;gco:CharacterString;;;;;;
+che:CHE_CI_Address/gmd:postalCode;Postleitzahl;Postleitzahl oder anderen Postcode.;13250;89.9;69;gco:CharacterString;;;;;;
+che:CHE_CI_Address/gmd:country;Land;Land des Standortes.;11896;80.7;64;gco:CharacterString;;;;;;
+che:CHE_CI_Address/che:streetName;Strassenname;Strassenname des Standortes;12658;85.9;69;gco:CharacterString;yes;;;;;
+che:CHE_CI_Address/che:streetNumber;Hausnummer;Hausnummer des Standortes;11372;77.2;66;gco:CharacterString;yes;;;;;
+che:CHE_CI_Address/che:addressLine;Addresszusatz;Adresszusatz (z.B. c/o);1059;7.2;22;gco:CharacterString;yes;;;;;
+che:CHE_CI_Address/che:postBox;Postfach;Postfachnummer;1823;12.4;24;gco:CharacterString;yes;;;;;
+che:CHE_CI_Address/gmd:electronicMailAddress;Email-Adresse;E-Mail-Adresse der verantwortlichen Person ;13570;92.1;69;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+che:CHE_CI_Telephone/gmd:voice;Numéro de téléphone;Numéro de téléphone;12905;87.6;65;gco:CharacterString;;;;;;
+;;;;;;;;;;;;
+# Identifier Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:MD_Identifier/gmd:code;Code;Alphanumerischer Wert für die  Instanzidentifikation in der Bezeichnung.;13682;92.8;69;gco:CharacterString or gmd:PT_FreeText or gmx:Anchor;;;;;;
+gmd:RS_Identifier/gmd:code;Code;Alphanumerischer Wert für die  Instanzidentifikation in der Bezeichnung.;11482;77.9;62;gco:CharacterString or gmd:PT_FreeText or gmx:Anchor;;;;;;
+;;;;;;;;;;;;
+# Multilingualism Information;;;;;;;;;;;;
+Attribute;Label;Description;MD Count;MD %;Group Count;Type;CHE; Core;BGDI;GDB;ODS;Inspire
+gmd:PT_FreeText/gmd:textGroup;Freier Text;Klasse für die Beschreibung eines  mehrsprachigen freien Text Metadatenelements.;9984;67.7;68;gmd:LocalisedCharacterString;;;;;;
+;;;;;;;;;;;;
+che:PT_FreeURL/che:URLGroup;Freie URL;Klasse für die Beschreibung eines  mehrsprachigen freien URL  Metadatenelements.;11781;79.9;67;che:LocalisedURL;yes;;;;;

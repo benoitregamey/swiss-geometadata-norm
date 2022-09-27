@@ -1,0 +1,102 @@
+che:CHE_CI_ResponsibleParty/che:individualFirstName
+che:CHE_CI_ResponsibleParty/che:individualLastName
+che:CHE_CI_ResponsibleParty/che:organisationAcronym
+che:CHE_CI_ResponsibleParty/che:parentResponsibleParty
+
+che:CHE_CI_Address/che:streetName
+che:CHE_CI_Address/che:streetNumber
+che:CHE_CI_Address/che:addressLine
+che:CHE_CI_Address/che:postBox
+
+che:CHE_CI_Telephone/che:directNumber
+che:CHE_CI_Telephone/che:mobile
+
+che:CHE_MD_Legislation/che:country
+che:CHE_MD_Legislation/che:language
+che:CHE_MD_Legislation/che:legislationType/che:CHE_CI_LegislationCode
+che:CHE_MD_Legislation/che:internalReference
+che:CHE_MD_Legislation/che:title
+
+che:CHE_MD_LegalConstraints/che:legislationConstraints
+
+che:CHE_MD_Metadata/che:legislationInformation
+
+che:CHE_MD_DataIdentification/che:projectType/che:CHE_CI_projectTypeCode
+che:CHE_MD_DataIdentification/che:revision/che:CHE_MD_Revision/che:revisionScope
+che:CHE_MD_DataIdentification/che:revision/che:CHE_MD_Revision/che:dateOfLastUpdate
+che:CHE_MD_DataIdentification/che:revision/che:CHE_MD_Revision/che:revisionNote
+che:CHE_MD_DataIdentification/che:revision/che:CHE_MD_Revision/che:revisionScopeDescription
+che:CHE_MD_DataIdentification/che:revision/che:CHE_MD_Revision/che:revisionExtent
+che:CHE_MD_DataIdentification/che:revision/che:CHE_MD_Revision/che:revisionContact
+che:CHE_MD_DataIdentification/che:basicGeodataID
+che:CHE_MD_DataIdentification/che:basicGeodataIDType/che:basicGeodataIDTypeCode
+che:CHE_MD_DataIdentification/che:geodataType/che:MD_geodataTypeCode
+
+che:CHE_MD_MaintenanceInformation/che:dateOfMonitoringState
+che:CHE_MD_MaintenanceInformation/che:historyConcept/che:CHE_MD_HistoryConcep/che:historyConceptCitation
+che:CHE_MD_MaintenanceInformation/che:historyConcept/che:CHE_MD_HistoryConcep/che:historyConceptURL
+che:CHE_MD_MaintenanceInformation/che:archiveConcept/che:CHE_MD_ArchiveConcept/che:archiveConceptCitation
+che:CHE_MD_MaintenanceInformation/che:archiveConcept/che:CHE_MD_ArchiveConcept/che:archiveConceptURL
+che:CHE_MD_MaintenanceInformation/che:appraisal/che:CHE_MD_Appraisal_AAP/che:durationOfConservation
+che:CHE_MD_MaintenanceInformation/che:appraisal/che:CHE_MD_Appraisal_AAP/che:commentOnDurationOfConservation
+che:CHE_MD_MaintenanceInformation/che:appraisal/che:CHE_MD_Appraisal_AAP/che:appraisalOfArchivalValue/che:CHE_AppraisalOfArchivalValueCode
+che:CHE_MD_MaintenanceInformation/che:appraisal/che:CHE_MD_Appraisal_AAP/che:reasonForArchivingValue/che:CHE_ReasonForArchivingValueCode
+che:CHE_MD_MaintenanceInformation/che:appraisal/che:CHE_MD_Appraisal_AAP/che:commentOnArchivalValue
+
+che:CHE_MD_FeatureCatalogueDescription/che:dataModel
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_AbstractClass/che:name
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_AbstractClass/che:description
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_AbstractClass/che:attribute/che:name
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_AbstractClass/che:attribute/che:description
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_AbstractClass/che:attribute/che:namedType/che:CHE_MD_CodeDomain
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_AbstractClass/che:attribute/che:anonymousType/che:CHE_MD_Type
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_AbstractClass/che:baseClass  #loop over che:CHE_MD_AbstractClass
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_AbstractClass/che:subClass  #loop over che:CHE_MD_AbstractClass
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Class/che:name
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Class/che:description
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Class/che:attribute/che:name
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Class/che:attribute/che:description
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Class/che:attribute/che:namedType/che:CHE_MD_CodeDomain
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Class/che:attribute/che:anonymousType/che:CHE_MD_Type
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Class/che:baseClass  #loop over che:CHE_MD_Class
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Class/che:subClass  #loop over che:CHE_MD_Class
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:name
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:description
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:attribute/che:name
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:attribute/che:description
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:attribute/che:namedType/che:CHE_MD_CodeDomain
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:attribute/che:anonymousType/che:CHE_MD_Type
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:baseClass  #loop over che:CHE_MD_Association
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:subClass  #loop over che:CHE_MD_Association
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:role/che:name
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:role/che:description
+che:CHE_MD_FeatureCatalogueDescription/che:class/che:CHE_MD_Association/che:role/che:toClass  #loop over che:CHE_MD_Association
+che:CHE_MD_FeatureCatalogueDescription/che:domain/che:CHE_MD_CodeDomain
+che:CHE_MD_FeatureCatalogueDescription/che:modelType/che:CHE_MD_modelTypeCode
+
+che:CHE_MD_CodeDomain/che:name
+che:CHE_MD_CodeDomain/che:description
+che:CHE_MD_CodeDomain/che:type/che:type
+che:CHE_MD_CodeDomain/che:type/che:value/che:CHE_MD_CodeValue
+che:CHE_MD_CodeDomain/che:subDomain  #loop over che:CHE_MD_CodeDomain
+che:CHE_MD_CodeDomain/che:baseDomain  #loop over che:CHE_MD_CodeDomain
+
+che:CHE_MD_CodeValue/che:name
+che:CHE_MD_CodeValue/che:code
+che:CHE_MD_CodeValue/che:description
+che:CHE_MD_CodeValue/che:subValue  #loop over che:CHE_MD_CodeValue
+
+che:CHE_MD_Type/che:type
+che:CHE_MD_Type/che:value/che:CHE_MD_CodeValue
+
+che:CHE_MD_PortrayalCatalogueReference/che:portrayalCatalogueURL
+
+che:CHE_MD_CoverageDescription/che:filmType/che:CHE_MD_FilmTypeCode
+che:CHE_MD_CoverageDescription/focalDistance
+
+che:CHE_MD_ImageDescription/che:filmType/che:CHE_MD_FilmTypeCode
+che:CHE_MD_ImageDescription/focalDistance
+
+che:PT_FreeURL/che:URLGroup/che:LocalisedURL
+
+che:CHE_SV_ServiceIdentification/che:inspireServiceType/che:CHE_SV_inspireServiceTypeCode

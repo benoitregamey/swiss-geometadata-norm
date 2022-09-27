@@ -1,0 +1,5 @@
+XPATH,Count
+gmd:MD_Identifier/gmd:code/gco:CharacterString,5012
+gmd:MD_Identifier/gmd:code/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,577
+gmd:MD_Identifier/gmd:authority/gmd:CI_Citation,42
+gmd:MD_Identifier/gmd:code/gmx:Anchor,6900

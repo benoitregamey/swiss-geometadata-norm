@@ -1,0 +1,16 @@
+XPATH,Count
+gmd:resourceConstraints/che:CHE_MD_LegalConstraints/che:legislationConstraints/che:CHE_MD_Legislation,801
+gmd:resourceConstraints/che:CHE_MD_LegalConstraints/gmd:accessConstraints/gmd:MD_RestrictionCode,1825
+gmd:resourceConstraints/che:CHE_MD_LegalConstraints/gmd:otherConstraints/gco:CharacterString,3303
+gmd:resourceConstraints/che:CHE_MD_LegalConstraints/gmd:otherConstraints/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,2508
+gmd:resourceConstraints/che:CHE_MD_LegalConstraints/gmd:otherConstraints/gmx:Anchor,294
+gmd:resourceConstraints/che:CHE_MD_LegalConstraints/gmd:useConstraints/gmd:MD_RestrictionCode,2641
+gmd:resourceConstraints/che:CHE_MD_LegalConstraints/gmd:useLimitation/gco:CharacterString,1456
+gmd:resourceConstraints/che:CHE_MD_LegalConstraints/gmd:useLimitation/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,1056
+gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gco:CharacterString,1431
+gmd:resourceConstraints/gmd:MD_Constraints/gmd:useLimitation/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,1416
+gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:classification/gmd:MD_ClassificationCode,387
+gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:useLimitation/gco:CharacterString,348
+gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:useLimitation/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,345
+gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:userNote/gco:CharacterString,7
+gmd:resourceConstraints/gmd:MD_SecurityConstraints/gmd:userNote/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,5

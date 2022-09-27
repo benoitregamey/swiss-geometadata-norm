@@ -1,0 +1,11 @@
+XPATH,Count
+gmd:CI_OnlineResource/gmd:linkage/che:PT_FreeURL/che:URLGroup/che:LocalisedURL,16113
+gmd:CI_OnlineResource/gmd:linkage/gmd:URL,19696
+gmd:CI_OnlineResource/gmd:name/gco:CharacterString,5961
+gmd:CI_OnlineResource/gmd:name/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,4662
+gmd:CI_OnlineResource/gmd:protocol/gco:CharacterString,16229
+gmd:CI_OnlineResource/gmd:description/gco:CharacterString,6604
+gmd:CI_OnlineResource/gmd:description/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,5263
+gmd:CI_OnlineResource/gmd:function/gmd:CI_OnLineFunctionCode,2133
+gmd:CI_OnlineResource/gmd:applicationProfile/gco:CharacterString,16
+gmd:CI_OnlineResource/gmd:name/gmx:MimeFileType,200

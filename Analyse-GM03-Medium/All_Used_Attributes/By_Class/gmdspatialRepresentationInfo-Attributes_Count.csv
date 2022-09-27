@@ -1,0 +1,16 @@
+XPATH,Count
+gmd:spatialRepresentationInfo/gmd:MD_Georectified/gmd:cellGeometry/gmd:MD_CellGeometryCode,7
+gmd:spatialRepresentationInfo/gmd:MD_Georectified/gmd:checkPointAvailability/gco:Boolean,7
+gmd:spatialRepresentationInfo/gmd:MD_Georectified/gmd:numberOfDimensions/gco:Integer,7
+gmd:spatialRepresentationInfo/gmd:MD_Georectified/gmd:pointInPixel/gmd:MD_PixelOrientationCode,7
+gmd:spatialRepresentationInfo/gmd:MD_Georectified/gmd:transformationParameterAvailability/gco:Boolean,7
+gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:dimensionName/gmd:MD_DimensionNameTypeCode,4
+gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:dimensionSize/gco:Integer,4
+gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:resolution/gco:Distance,1
+gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:axisDimensionProperties/gmd:MD_Dimension/gmd:resolution/gco:Measure,3
+gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:cellGeometry/gmd:MD_CellGeometryCode,46
+gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:numberOfDimensions/gco:Integer,46
+gmd:spatialRepresentationInfo/gmd:MD_GridSpatialRepresentation/gmd:transformationParameterAvailability/gco:Boolean,46
+gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectCount/gco:Integer,559
+gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:geometricObjects/gmd:MD_GeometricObjects/gmd:geometricObjectType/gmd:MD_GeometricObjectTypeCode,1385
+gmd:spatialRepresentationInfo/gmd:MD_VectorSpatialRepresentation/gmd:topologyLevel/gmd:MD_TopologyLevelCode,147

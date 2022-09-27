@@ -1,0 +1,5 @@
+XPATH,Count
+gmd:MD_StandardOrderProcess/gmd:fees/gco:CharacterString,177
+gmd:MD_StandardOrderProcess/gmd:orderingInstructions/gco:CharacterString,146
+gmd:MD_StandardOrderProcess/gmd:orderingInstructions/gmd:PT_FreeText/gmd:textGroup/gmd:LocalisedCharacterString,146
+gmd:MD_StandardOrderProcess/gmd:turnaround/gco:CharacterString,139
