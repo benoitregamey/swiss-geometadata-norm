@@ -2,7 +2,16 @@
 **Results of the study are available [here](https://docs.google.com/spreadsheets/d/1yfZ_zwq72Q7rIIWJ-HAi1FeMJtv5BqrLHHi9g-z3BmA).**
 ## Methodology
 ### Python module
-To perform some automatic task (attributes counting), a python module has been developped.
+To perform some automatic task (attributes counting), a python module has been created.
+
+**Requirements (python 3)**
+
+* `requests`
+* `urllib3`
+* `pandas`
+* `psycopg2`
+* `python-dotenv`
+* `lxml`
 
 **Installation**
 ```python
@@ -31,8 +40,8 @@ with open("GM03/GM03_Medium_Xpath.txt", "r") as input:
         if not l.strip().startswith("#") and l.strip() != '':
             attributes.append(l.strip())
 
-uuids = aa.api.get_uuids_all()
-attr_usage = aa.count_attribute_usage(attribute=attributes, uuids=uuids)
+uuids = aa.api.get_uuids_all(). # get all metadata uuid of geocat
+attr_usage = aa.count_attribute_usage(attribute=attributes, uuids=uuids). # count attributes
 
 output = open("GM03/GM03_Medium_Usage.txt", "w")
 
@@ -51,4 +60,7 @@ with open("GM03/GM03_Medium_Xpath.txt", "r") as input:
 output.close()
 ```
 ---
-### Get attributes that are not in the GM03 Medium norm
+### Attributes that are not in the GM03 Medium norm
+Fetch the attributes that are not in the GM03 Medium norm but still widely used by the metadata of geocat.ch. 
+
+To do that, we first retrieve all attributes used by the metadata
