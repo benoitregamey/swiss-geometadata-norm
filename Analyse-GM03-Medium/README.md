@@ -24,7 +24,7 @@ import pandas as pd
 ---
 ### GM03 Medium Attributes xpath
 The file [GM03_Medium_Xpath.txt](./GM03/GM03_Medium_Xpath.txt) contains all attributes from the GM03 Medium norm given in 
-XML-based ISO 19139.che profile format (xpath). This is how the norm is used in geocat.ch. The file has been created manually.
+XML-based ISO 19139.che schema format (xpath). This is how the norm is used in geocat.ch. The file has been created manually.
 
 ---
 ### Count GM03 Medium Attributes Usage
@@ -66,7 +66,7 @@ output.close()
 Fetch the attributes that are not in the GM03 Medium norm but still widely used by the metadata of geocat.ch. 
 
 To do that, we first retrieve all attributes used by the valid metadata. We don't use the non valid ones (harvested) because 
-they potentially contain attributes that are not compatible with ISO profile.
+they potentially contain attributes that are not compatible with ISO schema.
 Results are saved in a temporary file `GM03/Valid_Attributes_Usage.txt`
 
 ```python
@@ -119,12 +119,12 @@ filtered_df.to_csv("GM03/Valid_Attributes_Selection_new.txt",index=False)
 
 ---
 ### Attributes from the CHE extension
-The GM03 Medium is based on the iso19139 XML profile with an extension of 96 attributes/classes to create a new XML profile: the iso19139.che. If the future of the swiss geometadata norm keeps relying on ISO profiles, an objective will be to get rid of custom profile like the current iso19139.che. To do that, it will be necessary to get rid of or replace the custom 96 classes/attributes by attribute and classes available in a standard ISO profile.
+The GM03 Medium is based on the iso19139 XML schema with an extension of 96 attributes/classes to create a new XML schema: the iso19139.che. If the future of the swiss geometadata norm keeps relying on ISO schema, an objective will be to get rid of custom schema like the current iso19139.che. To do that, it will be necessary to get rid of or replace the custom 96 classes/attributes by attribute and classes available in a standard ISO schema.
 
 Therefore, we analyse the attributes from the CHE extension separately to see if we can delete them or how we can replace them.
 
 The file [CHE_Only_Attributes.txt](./CHE/CHE_Only_Attributes.txt) contains all attributes from the CHE extension given in 
-XML-based ISO 19139.che profile format (xpath). The file has been created manually.
+XML-based ISO 19139.che schema format (xpath). The file has been created manually.
 
 ---
 ### Count CHE attributes usage
