@@ -13,7 +13,7 @@ che:CHE_MD_Metadata/gmd:dataSetURI;URI des Datenbestands;Uniformed Resource Iden
 che:CHE_MD_Metadata/gmd:contact;Kontakt;Verantwortliche Stelle für die Information über die Metadaten;14439;98;70;che:CHE_CI_ResponsibleParty;;yes;yes;yes;yes;yes
 che:CHE_MD_Metadata/gmd:contentInfo;Information zum Inhalt;Informationen zum Eigenschaftskatalog und  Beschreibung der Cover- und Bildeigenschaften;2236;15.2;30;che:CHE_MD_CoverageDescription or che:CHE_MD_FeatureCatalogueDescription or che:CHE_MD_ImageDescription;;;;;;
 che:CHE_MD_Metadata/gmd:dataQualityInfo;Information zur Datenqualität;Einschätzung der Qualität der Ressource(n);4262;28.9;50;gmd:DQ_DataQuality;;;;;;
-che:CHE_MD_Metadata/gmd:distributionInfo;Information zur Verteilung;Informationen  über den Verteiler und wie man  die Ressource(n) beschafft;14373;97.5;71;gmd:MD_Distribution;;;yes;yes;yes;
+che:CHE_MD_Metadata/gmd:distributionInfo;Information zur Verteilung;Informationen  über den Verteiler und wie man  die Ressource(n) beschafft;14373;97.5;71;gmd:MD_Distribution;;;yes;yes;yes;yes
 che:CHE_MD_Metadata/gmd:identificationInfo;Information zur Identifikation des Datenbestandes;Basisinformationen über die Ressource(n), auf  die die Metadaten zutreffen;14738;100;71;che:CHE_MD_DataIdentification or che:CHE_SV_ServiceIdentification;;yes;yes;yes;yes;yes
 che:CHE_MD_Metadata/che:legislationInformation;Gesetzgebungsinformation;Informationen über rechtliche Belange, welche  die Ressource(n) betreffen;1295;8.8;37;che:CHE_MD_Legislation;yes;;;yes;;
 che:CHE_MD_Metadata/gmd:metadataMaintenance;Metadata Maintenance;Metadatennachführung;1868;12.7;32;che:CHE_MD_MaintenanceInformation;;;;;;
