@@ -1,8 +1,9 @@
 from lxml import etree
 import xml.etree.ElementTree as ET
 import pandas as pd
-from geocat.geocat import GeocatAPI
-from geocat import utils 
+from geocat import utils
+
+from geopycat import geocat
 
 # List of tag that correspond to an attribute (i.e. value of tag can be edited, not only for xml 
 # structure purpose).
@@ -101,7 +102,7 @@ class AnalyseAttributes:
     Class to analyse attributes usage of the GM03 medium norm in geocat.ch
     """
     def __init__(self):
-        self.api = GeocatAPI(env='prod')
+        self.gc = geocat(env='prod')
 
     def get_attributes_tag(self, uuids: list) -> dict:
         """
@@ -118,7 +119,7 @@ class AnalyseAttributes:
 
         count = 0
         for uuid in uuids:
-            metadata = self.api.get_metadata_from_mef(uuid=uuid)
+            metadata = self.gc.get_metadata_from_mef(uuid=uuid)
 
             count += 1
 
@@ -170,14 +171,14 @@ class AnalyseAttributes:
 
         count = 0
         for uuid in uuids:
-            metadata = self.api.get_metadata_from_mef(uuid=uuid)
+            metadata = self.gc.get_metadata_from_mef(uuid=uuid)
 
             count += 1
 
             if metadata is None:
                 continue
 
-            group_id = self.api.get_metadata_group(uuid=uuid)
+            group_id = self.gc.get_metadata_ownership(uuid=uuid)["group_ID"]
 
             xmlstring = etree.fromstring(metadata)
             xmlroot = xmlstring.getroottree()
@@ -259,7 +260,7 @@ class AnalyseAttributes:
         count = 0
         
         for uuid in uuids:
-            metadata = self.api.get_metadata_from_mef(uuid=uuid)
+            metadata = self.gc.get_metadata_from_mef(uuid=uuid)
 
             count += 1
 
@@ -267,7 +268,7 @@ class AnalyseAttributes:
                 continue
 
             xmlroot = ET.fromstring(metadata)
-            group_id = self.api.get_metadata_group(uuid=uuid)
+            group_id = self.gc.get_metadata_ownership(uuid=uuid)["group_ID"]
 
             for xpath in attribute:
 
