@@ -45,7 +45,7 @@ for group in groups:
         for key, value in attributes.items():
             output.write(f"{key},{value['metadata_count']},{value['metadata_%']},{value['group_count']}\n")
 
-    readme.write(f"##### {group['label']['eng']}\n")
+    readme.write(f"#### {group['label']['eng']}\n")
     readme.write(f"[GM03 medium attributes usage](GM03_Medium_Usage_{group['id']}.txt)<br>\n")
     readme.write(f"[All attributes usage](All_Attributes_Usage_{group['id']}.txt)<br><br>\n")
 
