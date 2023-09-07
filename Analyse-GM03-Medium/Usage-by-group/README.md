@@ -1,6 +1,5 @@
 #### Canton of Fribourg
 [GM03 medium attributes usage](GM03_Medium_Usage_3.txt)<br>
-<a href="GM03_Medium_Usage_3.txt" title="Download" download>GM03 medium attributes usage</a>
 [All attributes usage](All_Attributes_Usage_3.txt)<br><br>
 #### Canton of Zug
 [GM03 medium attributes usage](GM03_Medium_Usage_5.txt)<br>
