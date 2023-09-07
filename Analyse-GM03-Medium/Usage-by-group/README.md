@@ -1,5 +1,5 @@
 #### Canton of Fribourg
-[GM03 medium attributes usage](GM03_Medium_Usage_3.txt)<br>
+[GM03 medium attributes usage](GM03_Medium_Usage_3.txt "download")<br>
 [All attributes usage](All_Attributes_Usage_3.txt)<br><br>
 #### Canton of Zug
 [GM03 medium attributes usage](GM03_Medium_Usage_5.txt)<br>
@@ -7,7 +7,7 @@
 #### Federal Office of Topography swisstopo
 [GM03 medium attributes usage](GM03_Medium_Usage_6.txt)<br>
 [All attributes usage](All_Attributes_Usage_6.txt)<br><br>
-#### Canton of Neuchâtel (SITN)
+#### Canton of NeuchÃ¢tel (SITN)
 [GM03 medium attributes usage](GM03_Medium_Usage_7.txt)<br>
 [All attributes usage](All_Attributes_Usage_7.txt)<br><br>
 #### Federal Statistical Office FSO
@@ -94,7 +94,7 @@
 #### Natur-Museum Lucerne
 [GM03 medium attributes usage](GM03_Medium_Usage_62.txt)<br>
 [All attributes usage](All_Attributes_Usage_62.txt)<br><br>
-#### Canton of Graubünden (ANU)
+#### Canton of GraubÃ¼nden (ANU)
 [GM03 medium attributes usage](GM03_Medium_Usage_63.txt)<br>
 [All attributes usage](All_Attributes_Usage_63.txt)<br><br>
 #### Canton of Schwyz
@@ -124,7 +124,7 @@
 #### State Secretariat for Migration SEM
 [GM03 medium attributes usage](GM03_Medium_Usage_26805108.txt)<br>
 [All attributes usage](All_Attributes_Usage_26805108.txt)<br><br>
-#### Bundesamt für Sport BASPO
+#### Bundesamt fÃ¼r Sport BASPO
 [GM03 medium attributes usage](GM03_Medium_Usage_29125806.txt)<br>
 [All attributes usage](All_Attributes_Usage_29125806.txt)<br><br>
 #### Canton of Jura
@@ -133,7 +133,7 @@
 #### KGK-CGC
 [GM03 medium attributes usage](GM03_Medium_Usage_34799060.txt)<br>
 [All attributes usage](All_Attributes_Usage_34799060.txt)<br><br>
-#### Municipality of Köniz
+#### Municipality of KÃ¶niz
 [GM03 medium attributes usage](GM03_Medium_Usage_34838580.txt)<br>
 [All attributes usage](All_Attributes_Usage_34838580.txt)<br><br>
 #### Canton of Glarus
@@ -181,7 +181,7 @@
 #### GeORG
 [GM03 medium attributes usage](GM03_Medium_Usage_50000002.txt)<br>
 [All attributes usage](All_Attributes_Usage_50000002.txt)<br><br>
-#### Genève SITG
+#### GenÃ¨ve SITG
 [GM03 medium attributes usage](GM03_Medium_Usage_50000003.txt)<br>
 [All attributes usage](All_Attributes_Usage_50000003.txt)<br><br>
 #### Canton of Schaffhausen
