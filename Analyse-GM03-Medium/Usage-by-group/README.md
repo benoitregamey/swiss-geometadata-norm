@@ -1,3 +1,10 @@
+# Usage by group
+**You can find below the attributes usage of metadata from geocat.ch listed by group.** Groups that don't have at least one published metadata are not listed.
+
+`GM03 medium attributes usage` contains only the attributes of the current norm in force (GM03 Medium).<br>
+`All attributes usage` fetches all attributes used in the metadata and counts the number of time they are used.
+#
+
 #### Canton of Fribourg
 [GM03 medium attributes usage](files/GM03_Medium_Usage_3.txt)<br>
 [All attributes usage](files/All_Attributes_Usage_3.txt)<br><br>
